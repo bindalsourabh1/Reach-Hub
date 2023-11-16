@@ -8,18 +8,15 @@ This project aims to showcase the top 50 chess players on Lichess.org. The data 
 
 - React
 
-**Installation:**
-
-```bash
+### Backend
+-FAST-API
+# Frontend Installation
 cd reachub
 cd chess-base
 npm install
 npm start
 
-### Backend
-- FAST-API
-*Installation*
-
-```bash
+# Backend Installation
 cd fastapi_project
-
+pip install uvicorn
+uvicorn main:app --reload
