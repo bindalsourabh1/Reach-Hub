@@ -21,5 +21,6 @@ npm start
 # Backend Installation
 ```bash
 cd fastapi_project
+pip install fastapi
 pip install uvicorn
 uvicorn main:app --reload
