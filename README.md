@@ -11,12 +11,15 @@ This project aims to showcase the top 50 chess players on Lichess.org. The data 
 ### Backend
 -FAST-API
 # Frontend Installation
+```bash
 cd reachub
 cd chess-base
 npm install
 npm start
+```
 
 # Backend Installation
+```bash
 cd fastapi_project
 pip install uvicorn
 uvicorn main:app --reload
