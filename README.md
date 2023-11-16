@@ -6,7 +6,7 @@ This project aims to showcase the top 50 chess players on Lichess.org. The data 
 
 ### Frontend
 
-- React
+- React + Vite
 
 ### Backend
 -FAST-API
