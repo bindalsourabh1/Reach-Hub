@@ -1,16 +1,17 @@
 # Reach-Hub
-Project for presenting the score of top 50 players using the Lichees.org API
-The data is currently static on the front end. However, I intend to integrate it with the backend in the near future.
 
-Tech Stack Used
-Frontend - React 
+This project aims to showcase the top 50 chess players on Lichess.org. The data is currently static and displayed on the frontend, but plans are underway to integrate it with a backend for real-time updates.
+
+## Technology Stack
+
+### Frontend
+
+- React
+
+**Installation:**
+
+```bash
 cd reachub
 cd chess-base
 npm install
 npm start
-
-
-Backend- Fast API
-cd fast_project
-pip install uvicorn
-uvicorn main:app --reload
