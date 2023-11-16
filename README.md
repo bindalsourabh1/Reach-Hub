@@ -15,3 +15,11 @@ cd reachub
 cd chess-base
 npm install
 npm start
+
+### Backend
+- FAST-API
+*Installation*
+
+```bash
+cd fastapi_project
+
