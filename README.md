@@ -6,7 +6,7 @@ This project aims to showcase the top 50 chess players on Lichess.org. The data 
 
 ### Frontend
 
-- React
+- React + Vite
 
 ### Backend
 -FAST-API
@@ -21,5 +21,6 @@ npm start
 # Backend Installation
 ```bash
 cd fastapi_project
+pip install fastapi
 pip install uvicorn
 uvicorn main:app --reload
