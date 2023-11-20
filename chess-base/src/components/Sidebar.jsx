@@ -8,7 +8,7 @@ function Sidebar({openSidebarToggle, OpenSidebar}) {
     <aside id="sidebar" className={openSidebarToggle ? "sidebar-responsive": ""}>
         <div className='sidebar-title'>
             <div className='sidebar-brand'>
-                <BsCart3  className='icon_header'/> SHOP
+                <BsCart3  className='icon_header'/> 
             </div>
             <span className='icon close_icon' onClick={OpenSidebar}>X</span>
         </div>
@@ -36,7 +36,7 @@ function Sidebar({openSidebarToggle, OpenSidebar}) {
             </li>
             <li className='sidebar-list-item'>
                 <a href="">
-                    <BsListCheck className='icon'/> Mathces
+                    <BsListCheck className='icon'/> Matches
                 </a>
             </li>
             <li className='sidebar-list-item'>
